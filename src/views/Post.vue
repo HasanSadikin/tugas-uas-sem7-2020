@@ -78,7 +78,7 @@ export default {
       )
       .then((data) => {
         this.post = data[0];
-        // console.log(data);
+        console.log(this.post);
         this.post.publishedAt = this.changePublishDate(this.post.publishedAt);
       })
       .catch((err) => {

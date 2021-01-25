@@ -92,7 +92,16 @@ const routes = [
         path: "sejarah",
         component: () => import("../views/Sejarah.vue"),
       },
+      {
+        path: "*",
+        component: () => import("../views/404.vue"),
+      },
     ],
+  },
+  {
+    path: "*",
+    name: "404",
+    component: () => import("../views/404.vue"),
   },
 ];
 
