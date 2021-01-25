@@ -35,7 +35,7 @@ export default {
   data: () => ({
     posts: [],
   }),
-  created() {
+  mounted() {
     sanityClient
       .fetch(
         `*[_type == "galeri"]{

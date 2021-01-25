@@ -68,7 +68,7 @@ export default {
     berita: [],
     post: {},
   }),
-  created() {
+  mounted() {
     sanityClient
       .fetch(
         `*[_type == "post"] | order(_createdAt asc){

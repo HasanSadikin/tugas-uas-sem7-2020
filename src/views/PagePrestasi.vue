@@ -60,7 +60,7 @@ export default {
     berita: [],
     prestasi: [],
   }),
-  created() {
+  mounted() {
     sanityClient
       .fetch(
         `*[_type == "post"] | order(publishedAt asc){

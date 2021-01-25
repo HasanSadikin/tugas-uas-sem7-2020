@@ -48,7 +48,7 @@ export default {
   data: () => ({
     post: {},
   }),
-  created() {
+  mounted() {
     sanityClient
       .fetch(
         `*[_type == "post" && slug.current == '${this.$route.params.slug}']{

@@ -66,7 +66,7 @@ export default {
     ],
     siswa: [],
   }),
-  created() {
+  mounted() {
     sanityClient
       .fetch(
         `*[_type == "murid"] | order(name asc){

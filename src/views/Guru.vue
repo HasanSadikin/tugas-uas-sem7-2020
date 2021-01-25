@@ -66,7 +66,7 @@ export default {
     ],
     guru: [],
   }),
-  created() {
+  mounted() {
     sanityClient
       .fetch(
         `*[_type == "guru"] | order(name asc){
