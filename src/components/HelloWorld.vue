@@ -1,10 +1,6 @@
 <template>
   <body class="is-preload pa-0">
-    <v-parallax
-      dark
-      src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
-      height="400"
-    >
+    <v-parallax dark src="../assets/jumbotron.jpg" height="400">
       <v-row align="center" justify="center" class="ma-0">
         <v-col class="text-center col-white" cols="12">
           <div class="subheading">

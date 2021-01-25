@@ -13,7 +13,7 @@
           <!-- Intro -->
           <section id="intro">
             <header>
-              <h2>Berita</h2>
+              <h2>Prestasi</h2>
             </header>
           </section>
 

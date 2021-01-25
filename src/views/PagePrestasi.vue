@@ -18,12 +18,12 @@
             md="4"
           >
             <v-card class="mx-auto">
-              <router-link :to="`/berita/` + post.slug.current">
+              <router-link :to="`/prestasi/` + post.slug.current">
                 <v-img :src="post.mainImage.asset.url" height="200px"></v-img>
               </router-link>
 
               <v-card-title>
-                <router-link :to="`/berita/` + post.slug.current">
+                <router-link :to="`/prestasi/` + post.slug.current">
                   {{ post.title }}
                 </router-link>
               </v-card-title>
@@ -36,7 +36,7 @@
                 <v-btn
                   color="orange lighten-2"
                   text
-                  :to="`/berita/` + post.slug.current"
+                  :to="`/prestasi/` + post.slug.current"
                 >
                   Selengkapnya
                 </v-btn>

@@ -16,23 +16,6 @@
         <b-nav-item @click="go('/')">Home</b-nav-item>
         <b-nav-item @click="go('/page-berita')">Berita</b-nav-item>
         <b-nav-item @click="go('/page-prestasi')">Prestasi</b-nav-item>
-        <b-nav-item-dropdown text="Jurusan" Left>
-          <b-dropdown-item @click="go('/profil/siswa')"
-            >Profil Siswa</b-dropdown-item
-          >
-          <b-dropdown-item @click="go('/profil/alumni')"
-            >Profil Alumni</b-dropdown-item
-          >
-          <b-dropdown-item @click="go('/profil/guru')"
-            >Profil Guru</b-dropdown-item
-          >
-          <b-dropdown-item @click="go('/profil/visi-misi')"
-            >Visi Misi</b-dropdown-item
-          >
-          <b-dropdown-item @click="go('/profil/sejarah')"
-            >Sejarah Sekolah</b-dropdown-item
-          >
-        </b-nav-item-dropdown>
         <b-nav-item-dropdown text="Profil" Left>
           <b-dropdown-item @click="go('/profil/siswa')"
             >Profil Siswa</b-dropdown-item
